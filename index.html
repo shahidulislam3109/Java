@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!---sidebar start-->
+<section id="sidebar">
+    <ul>
+        <li><a href="">item-1</a></li>
+        <li><a href="">item-2</a></li>
+        <li><a href="">item-3</a></li>
+        <li><a href="">item-4</a></li>
+        <li><a href="">item-5</a></li>
+        <li><a href="">item-6</a></li>
+        <li><a href="">item-7</a></li>
+        <li><a href="">item-8</a></li>
+        <li><a href="">item-9</a></li>
+        <li><a href="">item-10</a></li>
+    </ul>
+
+</section>
+    <nav>
+        <div class="container">
+            <div class="logo"><img src="image/logo.png" alt=""></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#"> <i class="fas fa-bars" id="menu_toggle_bar" onclick="menuShow()"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--banner section start-->
+    <section id="banner">
+        <div class="container">
+            <h1>web and android app developer!</h1>
+        </div>
+    </section>
+    <div class="center">
+        <form>
+            <div>
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div>
+                <input type="password" id="password" placeholder="Enter Your Password">
+                <i class="fas fa-eye-slash" id="password_eye" onclick="passToggle()"></i>
+            </div>
+            <button class="submit">submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

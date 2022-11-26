@@ -1,0 +1,103 @@
+/*---css common--*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/*--css common--*/
+/*---menu section stat--*/
+nav{
+    background-color: rgb(0, 255, 13);
+}
+nav .container{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .logo{
+    width: 20%;
+    padding-top: 34px;
+}
+nav .menu{
+    width: 80%;
+}
+nav .container{
+    display: flex;
+    text-align: center;
+   }
+   nav .menu ul{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+     }
+     nav .container ul li a{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 30px;
+        text-transform: uppercase;
+        display: inline-block;
+     }
+     #sidebar{
+        position: fixed;
+        width: 200px;
+        top: 0;
+        left: 0;
+        transition: .5s;
+        opacity: 0;
+        visibility: hidden;
+     }
+     #sidebar.active{
+        opacity: 1;
+        visibility: visible;
+     }
+     #sidebar ul li a{
+        font-size: 27px;
+        font-weight: 700;
+        background-color: rgb(34, 28, 28);
+        display: block;
+    
+     }
+     #banner{
+        background-image: url(image/shahid.jpg);
+        width:90%;
+        height: 600px;
+        background-position: cover;
+        align-items: center;
+     }
+     #banner h1{
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 300px;
+        color: rgb(115, 221, 44);
+     }
+     .center{
+        text-align: center;
+        margin-top: 25px;
+        border: 1px solid #ddd;
+     }
+     .center input{
+        font-size: larger;
+        font-weight: 700;
+        width: 50%;
+        color: rgba(47, 49, 45, 0.986);
+     }
+     .center button{
+        font-size: large;
+        font-weight: 700;
+        color: blue;
+     }
+
+
